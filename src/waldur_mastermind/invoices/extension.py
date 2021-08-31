@@ -8,15 +8,15 @@ class InvoicesExtension(WaldurExtension):
         # wiki: https://opennode.atlassian.net/wiki/display/WD/Assembly+plugin+configuration
         WALDUR_INVOICES = {
             'ISSUER_DETAILS': {
-                'company': 'OpenNode',
-                'address': 'Lille 4-205',
+                'company': 'University of Tartu',
+                'address': 'Ülikooli 18, Tartu',
                 'country': 'Estonia',
-                'email': 'info@opennodecloud.com',
-                'postal': '80041',
-                'phone': {'country_code': '372', 'national_number': '5555555',},
-                'bank': 'Estonian Bank',
-                'account': '123456789',
-                'vat_code': 'EE123456789',
+                'email': '	info@ut.ee',
+                'postal': '50090',
+                'phone': {'country_code': '372', 'national_number': '7375100',},
+                'bank': 'SEB',
+                'account': 'EE281010102000234007',
+                'vat_code': 'EE100030417',
                 'country_code': 'EE',
             },
             # How many days are given to pay for created invoice
